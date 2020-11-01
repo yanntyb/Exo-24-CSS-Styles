@@ -1,1 +1,66 @@
+* {
+    font-family: sans-serif,Verdana, Arial;
+}
 
+body {
+    background-color: white;
+}
+
+#partie3 {
+    background-color: #C0C0C0;
+}
+
+.produit {
+    color: coral;
+    font-style: italic;
+}
+
+.produit::first-letter {
+    text-transform: uppercase;
+}
+
+.reference {
+    color: black;
+    font-style: italic;
+    background-color: lightslategrey;
+}
+
+.general {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#partie3 {
+    color: blue;
+    font-size: small;
+}
+
+#partie1>h3 {
+    color: red;
+    text-transform: uppercase;
+}
+
+blockquote>p::first-letter {
+    color: green;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+blockquote>p {
+    text-indent: 20px;
+}
+
+h1,h2,h3 {
+    font-family: Arial;
+}
+
+th {
+    font-size: small;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+ul>li {
+    list-style: circle;
+}
